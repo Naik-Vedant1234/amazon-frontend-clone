@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon</title>
+    <!--cdn-content delivery network--it connects you to the nearest server so that you get the content 
+    as soon as possible and your website loads all the things as soon as possible-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--above is the cdnjs link which is a css link -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--i for icon   and whatever is in the class is the icon from font awesome whose code is in the 
+    cdnjs linked stylesheet-->
+    <!--create navbar-->
+    <div class="navbar">
+        <div class="nav_logo border">
+            <div class="logo"></div>
+        </div>
+        <div class="nav_loc border">
+            <p id="deliver">Deliver to</p>
+            <div class="loc">
+                <i class="fa-solid fa-location-dot"></i>
+                <p id="india">India</p>
+            </div>
+        </div>
+        <div class="nav_search border">
+            <select class="all">
+                <option>All</option>
+            </select>
+            <input placeholder="Search Amazon" id="search">
+            <div class="search_icon">
+                <i style="color: #0f1111;" class="fa-solid fa-magnifying-glass" ></i>
+            </div>
+        </div>
+        <div class="navbar_flag">
+            <span style="color: red;">
+                <i class="fa-regular fa-flag"></i>
+            </span>
+            <p style="font-size: 0.8rem;font-weight: bold;">EN</p>
+        </div>
+        <div class="navbar_sign border">
+            <div class="hello">
+                <p>Hello,sign in</p>
+            </div>
+            <div class="account">
+                <p>Accounts & Lists</p>
+            </div>
+        </div>
+        <div class="navbar_return border">
+            <div class="hello">
+                <p>Returns</p>
+            </div>
+            <div class="account">
+                <p>& Orders</p>
+            </div>
+        </div>
+        <div class="navbar_cart border">
+            <span style="height:1.5rem">
+                <i class="fa-solid fa-cart-shopping"></i>
+            </span>
+            <p id="cart">Cart</p>
+        </div>
+    </div>
+    <div class="panel">
+        <div class="panel_all border">
+            <i class="fa-solid fa-bars"></i>
+            All
+        </div>
+        <div class="panel_options">
+            <p class="pad border">Today's Deals</p>
+            <p class="pad border">Customer Service</p>
+            <p class="pad border">Registry</p>    
+            <p class="pad border">Gift Cards</p>
+            <p class="pad border">Sell</p>
+        </div>
+    </div>
+    <div class="hero">
+    </div>
+    <div class="shop">
+        <div class="box1 box">
+            <h2 style="margin-bottom: 15px;">Get your game on</h2>
+            <div class="back" style="background-image: url('box1_image.jpg');margin-bottom: 15px;"></div>
+            <a style="color: green;margin-top: 20px;" href="#">Shop gaming</a>
+        </div>
+        <div class="box2 box">
+            <h2 style="margin-bottom: 15px;">Gaming accessories</h2>
+            <div class="back" style="background-image: url('box2_image.jpg');margin-bottom: 15px;"></div>
+            <a style="color: green;margin-top: 20px;" href="#">See more</a>
+        </div>
+        <div class="box3 box">
+            <h2 style="margin-bottom: 15px;">New home arrivals under $50</h2>
+            <div class="back" style="background-image: url('box3_image.jpg');margin-bottom: 15px;"></div>
+            <a style="color: green;margin-top: 20px;" href="#">Shop the latest from Home</a>
+        </div>
+        <div class="box4 box">
+            <h2 style="margin-bottom: 15px;">Shop deals in fashion</h2>
+            <div class="back" style="background-image: url('box4_image.jpg');margin-bottom: 15px;"></div>
+            <a style="color: green;margin-top: 20px;" href="#">See all deals</a>
+        </div>
+        <div class="box1 box">
+            <h2 style="margin-bottom: 15px;">Refresh your space</h2>
+            <div class="back" style="background-image: url('box5_image.jpg');margin-bottom: 15px;"></div>
+            <a style="color: green;margin-top: 20px;" href="#">See more</a>
+        </div>
+        <div class="box2 box">
+            <h2 style="margin-bottom: 15px;">Shop for your home essentials</h2>
+            <div class="back" style="background-image: url('box6_image.jpg');margin-bottom: 15px;"></div>
+            <a style="color: green;margin-top: 20px;" href="#">Discover more in Home</a>
+        </div>
+        <div class="box3 box">
+            <h2 style="margin-bottom: 15px;">Toys under $25</h2>
+            <div class="back" style="background-image: url('box7_image.jpg');margin-bottom: 15px;"></div>
+            <a style="color: green;margin-top: 20px;" href="#">Shop now</a>
+        </div>
+        <div class="box4 box">
+            <h2 style="margin-bottom: 15px;">New year,now you</h2>
+            <div class="back" style="background-image: url('box8_image.jpg');margin-bottom: 15px;"></div>
+            <a style="color: green;margin-top: 20px;" href="#">Shop now</a>
+        </div>
+    </div>
+    <!--create divs for every thing you need to get-->
+
+    <footer style="padding-top: 30px; background-color: #91075a;">
+        <div class="back_to_top background">Back to top</div>
+        <div class="phase2">
+            <div class="p1 ph">
+                <p>Get to Know Us</p>
+                <a>Careers</a>
+                <a>Blog</a>    
+                <a>About Amazon</a>
+                <a>Investor Relations</a> 
+                <a>Amazon Devices</a>
+                <a>Amazon Science</a>
+            </div>
+            <div class="p2 ph">
+                <p>Make Money with Us</p>
+                <a>Sell products on Amazon</a>
+                <a>Sell on Amazon Business</a>
+                <a>Sell apps on Amazon</a>
+                <a>Become an Affiliate</a>
+                <a>Advertise Your Products</a>
+                <a>Self-Publish with Us</a>
+                <a>Host an Amazon Hub<br>
+                ›See More Make Money with Us</a>
+            </div>
+            <div class="p3 ph">
+                <p>Amazon Payment Products</p>
+                <a>Amazon Business Card</a>
+                <a>Shop with Points</a>
+                <a>Reload Your Balance</a>
+                <a>Amazon Currency Converter</a>
+            </div>
+            <div class="p4 ph">
+                <p>Let Us Help You</p>
+                <a>Amazon and COVID-19</a>
+                <a>Your Account</a>
+                <a>Your Orders</a> 
+                <a>Shipping Rates & Policies</a>
+                <a>Returns & Replacements</a>    
+                <a>Manage Your Content and Devices</a>
+                <a>Help</a>
+            </div>
+        </div>
+        <div class="phase3">
+            <div class="img"></div>
+            
+        </div>
+    </footer>
+</body>
+</html>
